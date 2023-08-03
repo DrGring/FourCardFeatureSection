@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 1360px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+section {
+    font-family: 'Poppins', sans-serif;
+}
+h3 {
+    color: hsl(234, 12%, 34%);
+    margin: 0;
+}
+
+article {
+    background-color: #fff;
+    width: 313px;
+    height: 1192px;
+}
+header {
+    justify-content: center;
+    text-align: center;
+    width: 313px;
+    height: 155px;
+    margin-bottom: 74px;
+}
+.header__first__title {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 200;
+    color:#0000008c ;
+}
+.header__second__title {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+.header__text {
+    margin: 0;
+    color: hsl(229, 6%, 66%);
+    font-size: 17px;
+    width: 295px;
+    height: 66px;
+}
+
+
+.section-supervisor {
+    display: flex;
+    justify-content: center;
+    height: 221px;
+    margin-bottom: 25px;
+    align-items: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000ad, inset 0px 14px 2px -11px hsl(180, 62%, 55%); 
+    box-shadow: 0px 10px 13px -7px #00000073, inset 0px 14px 2px -11px hsl(180, 62%, 55%);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.section-middle {
+    width: 313px;
+    height: 468px;
+    margin-bottom: 25px;
+}
+.section-middle__team__builder{
+    display: flex;
+    justify-content: center;
+    height: 221px;
+    margin-bottom: 25px;
+    align-items: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000ad, inset 0px 14px 2px -11px hsl(0, 78%, 62%); 
+    box-shadow: 0px 10px 13px -7px #00000073, inset 0px 14px 2px -11px hsl(0, 78%, 62%);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.section-middle__karma {
+    display: flex;
+    justify-content: center;
+    height: 221px;
+    align-items: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000ad, inset 0px 14px 2px -11px hsl(34, 97%, 64%); 
+    box-shadow: 0px 10px 13px -7px #00000073, inset 0px 14px 2px -11px hsl(34, 97%, 64%); 
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.section-calculator {
+    display: flex;
+    justify-content: center;
+    height: 221px;
+    margin-bottom: 25px;
+    align-items: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000ad, inset 0px 14px 2px -11px hsl(212, 86%, 64%); 
+    box-shadow: 0px 10px 13px -7px #00000073, inset 0px 14px 2px -11px hsl(212, 86%, 64%);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.section-text {
+    font-size: 13px;
+    margin-top: 16px;
+    color: hsl(229, 6%, 66%);
+    margin-bottom: 33px;
+    width: 251px;
+    height: 38px;
+}
+
+img.icon {
+    cursor:ew-resize;
+    margin-left: 197px;
+    width: 60px;
+    height: 60px;
+}
+.section__contain {
+    width: 257px;
+    height: 167px;
+}
+
+
+@media only screen and (min-width:1000px) {
+    body {
+        height: 922px;
+    }
+    article {
+        width: 1107px;
+        height: 754px;
+    }    
+    header {
+        width: 100%;
+    }
+    section {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header__first__title {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        font-size: 36px;
+        font-weight: 200;
+        color:#0000008c ;
+    }
+    .header__second__title {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        color: hsl(234, 12%, 34%);
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+    .header__text {
+        margin:0;
+        margin-left: 18.6rem;
+        color: hsl(229, 6%, 66%);
+        font-size: 18.5px;
+        width: 510px;
+        height: 42px;
+    }
+    .section-middle {
+        width: 350px;
+        height: 500px;
+    }
+    .section-supervisor,
+    .section-calculator {
+        width: 350px;
+        height: 252px;
+    }
+    .section__contain {
+        width: 288px;
+        height: 183px;
+    }
+    .section-text {
+        width: 261px;
+        height: 36px;
+    }
+    img.icon {
+        margin-left: 222px;
+        width: 60px;
+        height: 60px;
+    }
+     
+}
